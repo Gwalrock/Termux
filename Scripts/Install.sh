@@ -2,6 +2,7 @@
 
 #script de instalacion de herramientas sobre termux
 
+#actualiza termux
 apt update && apt upgrade
 
 #herramientas comunes
@@ -10,7 +11,6 @@ pkg install -y git
 pkg install -y wget
 pkg install -y curl
 pkg install -y python
-pkg install -y python2
 
 #nikto
 git clone https://github.com/sullo/nikto.git
